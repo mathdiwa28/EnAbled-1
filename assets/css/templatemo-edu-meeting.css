@@ -34,17 +34,19 @@ body {
 }
 
 /* Logo Container */
-.logo-container {
-    display: flex; /* Align items in a row */
-    align-items: center; /* Vertically center items */
-}
-
-.logo {
-    width: 50px; /* Set the width for the circular logo */
-    height: 50px; /* Set the height for the circular logo */
-    border-radius: 50%; /* Make the logo circular */
-    overflow: hidden; /* Prevent overflow */
-    margin-right: 10px; /* Space between logo and title */
+#logo-container {
+    position: absolute;
+    top: 20px; /* Adjust this value to align the logo vertically */
+    left: 10px; /* Aligns logo to the left */
+    width: 120px; /* Set width for circular shape */
+    height: 120px; /* Set height for circular shape */
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Ensures the logo doesn't overflow */
+    display: flex; /* Centers logo */
+    justify-content: center; /* Centers logo */
+    align-items: center; /* Centers logo */
+    background-color: rgba(255, 215, 0, 0.1); /* Optional: light gold background */
+    border: 2px solid white; /* White border */
 }
 
 .header-title {
